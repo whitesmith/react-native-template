@@ -2,6 +2,15 @@
 
 A template for you React Native App
 
+## How to use
+
+1. Download the code
+2. Open `package.json`, `index.android.json` and `index.ios.json` and replace `ReactNativeTemplate` with the name of your app
+3. run `npm install`
+4. run `react-native upgrade`
+5. run `react-native link`
+6. run `react-native run-ios` or `react-native run-android`
+
 ## What's in the box?
 
 ### React Navigation
