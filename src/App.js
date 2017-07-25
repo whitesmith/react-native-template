@@ -6,7 +6,7 @@ import reducers from './reducers';
 import { MainStack } from './NavigationRouter';
 
 
-class TredditApp extends Component {
+class App extends Component {
   render() {
     const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));
 
@@ -18,4 +18,4 @@ class TredditApp extends Component {
   }
 }
 
-export default TredditApp;
+export default App;
